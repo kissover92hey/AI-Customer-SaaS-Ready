@@ -1,0 +1,22 @@
+# AI Customer SaaS Ready
+
+> 🧠 Chatwoot + 🤖 LobeChat + 🔐 SSL + 📝 Multi-language
+
+This repo provides a production-ready one-click Docker deployment template for launching your own AI-powered customer support SaaS platform.
+
+## Features
+
+- ✅ Chatwoot: multi-agent support, inboxes, channels (WhatsApp/IG/FB/Web)
+- ✅ LobeChat: GPT/Claude chatbot integration
+- ✅ Flowise (optional): Visual chatbot flow builder
+- ✅ Nginx reverse proxy + Let's Encrypt SSL
+- ✅ `.env` support for key management (OpenAI key, domain, etc)
+- ✅ Multi-language (EN/中文/马来文)
+
+## Quick Start
+
+```bash
+git clone https://github.com/YOURUSERNAME/ai-customer-saas-ready.git
+cd ai-customer-saas-ready
+cp .env.example .env  # Fill in OpenAI Key and your domain
+docker-compose up -d --build
